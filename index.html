@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prince Gupta — Full-Stack Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Prince Gupta — B.Tech CSE graduate and full-stack developer specializing in the MERN stack. Explore projects, skills, and experience."
+    />
+    <meta property="og:title" content="Prince Gupta — Full-Stack Developer" />
+    <meta
+      property="og:description"
+      content="Portfolio of Prince Gupta — full-stack developer specializing in the MERN stack."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      // Apply saved theme before first paint to avoid a flash (defaults to dark)
+      if (localStorage.getItem('theme') === 'light') {
+        document.documentElement.classList.remove('dark')
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
